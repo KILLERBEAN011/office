@@ -1,0 +1,20 @@
+.image-container{
+    position: relative;
+    width: 100%;
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    background: #ffffff;
+    padding: 150px;
+    border-radius: 10px;
+}
